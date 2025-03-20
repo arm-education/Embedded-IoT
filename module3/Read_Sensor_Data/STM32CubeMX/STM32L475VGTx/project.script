@@ -1,0 +1,5 @@
+load STM32L475VGTx
+project name STM32CubeMX
+project toolchain "MDK-ARM V5"
+project path "C:\Users\jaecho01\OneDrive - Arm\Documents\Embedded-IoT\module3\Read_Sensor_Data\STM32CubeMX\STM32L475VGTx"
+SetCopyLibrary "copy only"

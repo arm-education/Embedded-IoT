@@ -1,0 +1,36 @@
+# A project translates into one executable or library.
+project:
+
+  # List components to use for your application.
+  # A software component is a re-usable unit that may be configurable.
+  components:
+    - component: ARM::CMSIS:CORE
+    - component: Device:CubeMX
+
+  define:
+    - USE_HAL_DRIVER
+
+  add-path:
+    - ./STM32CubeMX/STM32L475VGTx/STM32CubeMX/Drivers/BSP/custom
+    - ./STM32CubeMX/STM32L475VGTx/STM32CubeMX/Middlewares/ST/BlueNRG-MS/utils
+    - ./STM32CubeMX/STM32L475VGTx/STM32CubeMX/Middlewares/ST/BlueNRG-MS/includes
+    - ./STM32CubeMX/STM32L475VGTx/STM32CubeMX/Middlewares/ST/BlueNRG-MS/hci/hci_tl_patterns
+
+  groups:
+    - group: X-CUBE-BLE1
+      files:
+      - file: ./STM32CubeMX/STM32L475VGTx/STM32CubeMX/Middlewares/ST/BlueNRG-MS/utils/ble_list.c
+      - file: ./STM32CubeMX/STM32L475VGTx/STM32CubeMX/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_gap_aci.c
+      - file: ./STM32CubeMX/STM32L475VGTx/STM32CubeMX/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_gatt_aci.c
+      - file: ./STM32CubeMX/STM32L475VGTx/STM32CubeMX/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_hal_aci.c
+      - file: ./STM32CubeMX/STM32L475VGTx/STM32CubeMX/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_IFR.c
+      - file: ./STM32CubeMX/STM32L475VGTx/STM32CubeMX/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_l2cap_aci.c
+      - file: ./STM32CubeMX/STM32L475VGTx/STM32CubeMX/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_updater_aci.c
+      - file: ./STM32CubeMX/STM32L475VGTx/STM32CubeMX/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_utils_small.c
+      - file: ./STM32CubeMX/STM32L475VGTx/STM32CubeMX/Middlewares/ST/BlueNRG-MS/hci/hci_tl_patterns/Basic/hci_tl.c
+      - file: ./STM32CubeMX/STM32L475VGTx/STM32CubeMX/Middlewares/ST/BlueNRG-MS/hci/hci_le.c
+    - group: BSP
+      files:
+      - file: ./STM32CubeMX/STM32L475VGTx/STM32CubeMX/Drivers/BSP/custom/custom.c
+  packs:
+    - pack: Keil::STM32L4xx_DFP

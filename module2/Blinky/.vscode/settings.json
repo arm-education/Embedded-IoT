@@ -1,0 +1,17 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=c:\\Users\\jaecho01\\OneDrive - Arm\\Documents\\Embedded-IoT\\module2\\Blinky\\out\\CubeMX\\STM32L475VGTx\\Debug"
+    ],
+    "cmsis-csolution.actions": [
+        {
+            "path": "CubeMX.csolution.yml",
+            "target": "STM32L475VGTx",
+            "config": {
+                "run": "Flash Device"
+            }
+        }
+    ],
+    "python.analysis.extraPaths": [
+        "c:\\Users\\jaecho01\\.vcpkg\\artifacts\\2139c4c6\\debuggers.arm.armdbg\\6.4.0\\sw\\osgi\\plugins\\com.arm.debug.interpreter.jython.api_0.0.0.202412182131"
+    ]
+}

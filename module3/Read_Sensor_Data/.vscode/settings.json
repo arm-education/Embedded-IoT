@@ -1,0 +1,14 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=c:\\Users\\jaecho01\\OneDrive - Arm\\Documents\\Embedded-IoT\\module3\\Read_Sensor_Data\\out\\CubeMX\\STM32L475VGTx\\Debug"
+    ],
+    "cmsis-csolution.actions": [
+        {
+            "path": "CubeMX.csolution.yml",
+            "target": "STM32L475VGTx",
+            "config": {
+                "run": "Flash Device"
+            }
+        }
+    ]
+}
