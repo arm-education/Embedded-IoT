@@ -1,0 +1,6 @@
+[submodule "module5/STM32L4_MQTT"]
+	path = module5/STM32L4_MQTT
+	url = https://github.com/jc2409/STM32L4_MQTT
+[submodule "module6/MQTT_Android"]
+	path = module6/MQTT_Android
+	url = https://github.com/jc2409/MQTT_Android
