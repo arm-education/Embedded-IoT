@@ -4,9 +4,12 @@ In this example, we will read the sensor data using the sensors embedded in the 
 
 We will use I2C for the serial communication and USART to print out the sensor data.
 
-**Configure I2C and USART as follows:**
+**Configure I2C2 and USART1 as follows:**
 
+### I2C2
 ![module3-I2C-config](images/module3-I2C-config.png)
+
+### USART1
 ![module3-USART-config](images/module3-USART-config.png)
 
 **The peripherals should look like this:**
