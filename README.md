@@ -5,7 +5,7 @@ This is the updated lab exercies for the IoT Edx Course
 Tested environment:
 - OS: Windows 10
 - Board: B-L475E-IOT01A1 (STM32L475VGTx)
-- Additional Device: Android Pixel 8 Pro
+- Additional Device: Google Pixel 8 Pro
 - IDE: 
     - module(2-4): CMSIS Solution on VS Code Extension
     - module5: Keil uvision (AC5 needs to be installed)
