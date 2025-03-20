@@ -1,0 +1,5 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=c:\\Users\\jaecho01\\OneDrive - Arm\\Documents\\Embedded-IoT\\module2\\Blinky\\out\\CubeMX\\STM32L475VGTx\\Debug"
+    ]
+}
