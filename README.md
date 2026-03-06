@@ -1,6 +1,6 @@
-# Embedded-IoT
+# Embedded-IoT lab exercises
 
-This is the updated lab exercies for the IoT Edx Course
+These are the updated lab exercies for Arm's [Build Your First Internet of Things (IoT) Application on Arm](https://www.edx.org/learn/app-development/arm-education-build-your-first-internet-of-things-iot-application-on-arm) edX course.
 
 Tested environment:
 - OS: Windows 10
